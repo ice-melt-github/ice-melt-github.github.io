@@ -1,0 +1,29 @@
+# Welcome to ice-melt' personal page!
+lang: zh_CN
+title: 夕兮曦兮的个人网站
+author: ice-melt
+email: ice-melt@outlook.com
+description: > 
+  Hello，我是<bold>夕兮曦兮</bold>，英文名<bold>ice-melt</bold>,这是我利用 <a href="https://pages.github.com/" style="font-weight: bold">GitHub Pages</a> 与 <a href="http://jekyll.com.cn/" style="font-weight: bold">Jekyll</a> 搭建的 个人博客。如果有什么问题，欢迎提出探讨~
+
+baseurl: ""
+url: "https://ice-melt.top"
+github_username:  ice-melt
+twitter_username: ""
+header-img: assets/img/post-bg-desk.jpg
+minima:
+  date_format: "%b %-d, %Y"
+
+timezone: Asia/Beijing
+
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
+
+paginate: 5
+paginate_path: "/blog/p:num"
+
+# exclude: ["less","node_modules","Gemfile","Gemfile.lock","Gruntfile.js","package.json","README.md","_back"]

@@ -1,18 +1,7 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
-
-# Other files and folders
-.settings/
-
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
-
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# 忽略的文件 及 备份文件夹内部的文件,jekyll站点生成的文件也忽略
+Gemfile.lock
+_backup
+#!_backup/
+_site
+#!_site/
+.sass-cache
