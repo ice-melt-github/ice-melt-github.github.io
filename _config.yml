@@ -17,7 +17,7 @@ minima:
 timezone: Asia/Beijing
 
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-leap-day
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
